@@ -1,0 +1,46 @@
+
+  <body >
+ <div class="menu" >
+    
+	<ul>
+		<li><a [routerLink]="['/home']">Home</a></li>
+    <li><a  disabled>Wear</a>
+      <ul>
+          <li><a routerLink="kazak">Sweater</a></li> 
+          <li><a routerLink="mont">Jacket</a></li>
+          <li><a routerLink="ayakkabi">Shoe</a></li>
+        
+        
+      </ul>  
+    </li>
+    <li><a disabled>Electronic</a>
+      <ul>
+          <li><a routerLink="telefon">Phone</a></li>
+          <li><a routerLink="bilgisayar">Computer</a></li>
+          <li><a routerLink="kulaklik">Headphone</a></li>
+        
+        
+      </ul>  
+        
+    </li>
+    <li><a disabled>Cosmetic</a>
+      <ul>
+          <li><a href="#">perfume</a></li>
+          <li><a href="#">make-up</a></li>
+         
+        
+        
+      </ul>  </li>
+    <li><a routerLink="profil">My Account</a></li>
+
+    
+	</ul>
+</div>
+
+
+
+<router-outlet></router-outlet> 
+</body >
+
+
+

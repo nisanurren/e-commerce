@@ -1,0 +1,22 @@
+
+h1{
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.urunkutusu{
+    height: 150px;
+    width: 800px;
+    background-color:grey;
+   
+    opacity: 1;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+img{
+    padding: 22px;
+    width: 100px;
+    height: 100px;
+    
+}

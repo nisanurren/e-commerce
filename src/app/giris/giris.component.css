@@ -1,0 +1,48 @@
+a{color:black;text-decoration:none;font:bold;border-radius: 20px }
+a:hover{color:white}
+ul {
+    border-radius: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:tomato
+}
+
+li {
+    display:inline-block;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color:lightgreen; 
+}
+
+ul li ul {
+    background-color:tomato;
+    display:none;
+    position:absolute;
+    width:100px
+}
+
+ul li:hover ul{
+    display:block;
+}
+li ul li {
+    display:block; 
+}
+body{
+    background-color:lightgrey;
+    
+    
+    height:5000px;
+}
+
+ 
